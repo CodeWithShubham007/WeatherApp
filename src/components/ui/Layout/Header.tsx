@@ -20,7 +20,7 @@ const Header = () => {
     <header className="sticky top-0 z-50 w-full bg-background/95 backdrop-blur py-2 supports-[backdrop-filter]:bg-background/60">
         <div className="container mx-auto flex h-16 items-center justify-between px-4">
             <Link to='/' >
-                <img src={isDark ? "./1.png" : "2.jpg"} alt="not found" className="h-14" />
+                <img src={isDark ? "./1.png" : "./2.png"} alt="not found" className="h-14 bg-none" />
             </Link>
             <div className="flex gap-4">
                 {/* Search */}
